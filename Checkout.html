@@ -1,0 +1,138 @@
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Trang chủ</a></li>
+      <li><a href="product.html">Cửa hàng</a></li>
+      <li><a href="about.html">Giới thiệu</a></li>
+      <li><a href="blog.html">Bài viết</a></li>
+      <li><a href="contact.html">Liên hệ</a></li>
+      <li><a href="cart.html">Giỏ hàng</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <table width="100%" border="0" cellpadding="20" cellspacing="0">
+    <tr>
+      <!-- CỘT TRÁI: FORM THANH TOÁN -->
+      <td width="65%" valign="top">
+        <section class="checkout-form">
+          <!-- Thanh tiến trình -->
+          <ol style="list-style: none; padding: 0;">
+            <li style="display: inline-block; margin-right: 15px; font-weight: bold;">1. Thông tin giao hàng</li>
+            <li style="display: inline-block; margin-right: 15px;">2. Vận chuyển</li>
+            <li style="display: inline-block;">3. Thanh toán</li>
+          </ol>
+
+          <form>
+            <fieldset>
+              <legend><h2>1. Thông tin giao hàng</h2></legend>
+              <div>
+                <label for="fullname">Họ và tên:</label><br>
+                <input type="text" id="fullname" name="fullname" style="width: 98%;">
+              </div>
+              <div style="margin-top: 10px;">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" style="width: 98%;">
+              </div>
+              <div style="margin-top: 10px;">
+                <label for="phone">Số điện thoại:</label><br>
+                <input type="tel" id="phone" name="phone" style="width: 98%;">
+              </div>
+              <div style="margin-top: 10px;">
+                <label for="address">Địa chỉ cụ thể (Số nhà, đường):</label><br>
+                <input type="text" id="address" name="address" style="width: 98%;">
+              </div>
+              <div style="margin-top: 10px;">
+                <label for="province_checkout">Tỉnh/Thành:</label><br>
+                <select id="province_checkout" name="province_checkout" style="width: 98%;">
+                  <option value="">Chọn Tỉnh/Thành</option>
+                </select>
+              </div>
+              <div style="margin-top: 10px;">
+                <label for="district_checkout">Quận/Huyện:</label><br>
+                <select id="district_checkout" name="district_checkout" style="width: 98%;">
+                  <option value="">Chọn Quận/Huyện</option>
+                </select>
+              </div>
+              <div style="margin-top: 10px;">
+                <label for="ward_checkout">Phường/Xã:</label><br>
+                <select id="ward_checkout" name="ward_checkout" style="width: 98%;">
+                  <option value="">Chọn Phường/Xã</option>
+                </select>
+              </div>
+              <div style="margin-top: 10px;">
+                <label for="notes">Ghi chú (tùy chọn):</label><br>
+                <textarea id="notes" name="notes" rows="3" style="width: 98%;"></textarea>
+              </div>
+            </fieldset>
+
+            <fieldset style="margin-top: 20px;">
+              <legend><h2>2. Vận chuyển</h2></legend>
+              <div>
+                <input type="radio" id="ship_standard" name="shipping" value="standard" checked>
+                <label for="ship_standard">Giao hàng tiêu chuẩn (15.000đ)</label>
+              </div>
+              <div style="margin-top: 10px;">
+                <input type="radio" id="ship_express" name="shipping" value="express">
+                <label for="ship_express">Giao hàng nhanh (25.000đ)</label>
+              </div>
+            </fieldset>
+
+            <fieldset style="margin-top: 20px;">
+              <legend><h2>3. Thanh toán</h2></legend>
+              <div>
+                <input type="radio" id="pay_cod" name="payment" value="cod" checked>
+                <label for="pay_cod">Thanh toán khi nhận hàng (COD)</label>
+              </div>
+              <div style="margin-top: 10px;">
+                <input type="radio" id="pay_online" name="payment" value="online">
+                <label for="pay_online">Thanh toán trực tuyến (VNPAY/Momo)</label>
+              </div>
+            </fieldset>
+
+            <!-- Nút hoàn tất dùng href -->
+            <a href="order-confirmation.html" style="text-decoration: none;">
+              <button type="button" style="width:100%; padding: 15px; margin-top: 30px; font-weight: bold;">
+                HOÀN TẤT ĐƠN HÀNG
+              </button>
+            </a>
+          </form>
+        </section>
+      </td>
+
+      <!-- CỘT PHẢI: TÓM TẮT ĐƠN HÀNG -->
+      <td width="35%" valign="top" style="background-color: #f9f9f9; padding: 15px;">
+        <h2>Đơn hàng của bạn</h2>
+        <p>
+          <img src="https://placehold.co/50x50/F5EFE6/704232?text=Nen" alt="Nến 1" style="vertical-align: middle;">
+          Nến "Mùa Xuân" (x1)
+          <span style="float: right;">250.000đ</span>
+        </p>
+        <p>
+          <img src="https://placehold.co/50x50/F5EFE6/704232?text=Nen" alt="Nến 2" style="vertical-align: middle;">
+          Nến "Biển Xanh" (x2)
+          <span style="float: right;">360.000đ</span>
+        </p>
+        <hr>
+        <p>
+          <span>Tạm tính:</span>
+          <span style="float: right;">610.000đ</span>
+        </p>
+        <p>
+          <span>Vận chuyển:</span>
+          <span style="float: right;">15.000đ</span>
+        </p>
+        <hr>
+        <p>
+          <strong>Tổng cộng:</strong>
+          <strong style="float: right; font-size: 1.2em;">625.000đ</strong>
+        </p>
+      </td>
+    </tr>
+  </table>
+</main>
+
+<footer>
+  <p><a href="/privacy">Chính sách bảo mật</a> | <a href="/terms">Điều khoản dịch vụ</a></p>
+</footer>
