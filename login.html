@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Đăng nhập</title>
+</head>
+<body>
+
+<table width="100%" border="0" cellpadding="20" cellspacing="0" style="min-height: 80vh;">
+  <tr>
+    <td align="center" valign="middle">
+      
+      <!-- Bắt đầu Form Đăng Nhập -->
+      <!-- Đặt form trong một table con để dễ căn chỉnh -->
+      <form action="index.html" method="POST">
+        <fieldset style="width: 350px; border: 1px solid #ccc; padding: 20px; text-align: left;">
+          <legend style="text-align: center;"><h2>Đăng nhập tài khoản</h2></legend>
+          
+          <!-- 1. Tài khoản -->
+          <div>
+            <label for="username">Tài khoản (Email hoặc Số điện thoại):</label><br>
+            <input type="text" id="username" name="username" required style="width: 95%; padding: 8px; margin-top: 5px;">
+          </div>
+          
+          <!-- 2. Mật khẩu -->
+          <div style="margin-top: 15px;">
+            <label for="password">Mật khẩu:</label><br>
+            <input type="password" id="password" name="password" required style="width: 95%; padding: 8px; margin-top: 5px;">
+          </div>
+          
+          <!-- 3. Lưu mật khẩu & 4. Quên mật khẩu -->
+          <div style="margin-top: 10px;">
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember">Lưu mật khẩu</label>
+            
+            <a href="forgetpassword.html" style="float: right;">Quên mật khẩu?</a>
+          </div>
+          
+          <!-- Nút Đăng nhập -->
+          <button type="submit" style="width: 100%; padding: 10px; margin-top: 20px; font-weight: bold; cursor: pointer;">
+            ĐĂNG NHẬP
+          </button>
+        
+        </fieldset>
+      </form>
+      <!-- Kết thúc Form Đăng Nhập -->
+
+      <!-- 5. Các lựa chọn đăng nhập khác -->
+      <div style="width: 350px; text-align: center; margin-top: 20px;">
+        <hr style="border: 0; border-top: 1px solid #eee;">
+        <p>Hoặc đăng nhập bằng</p>
+        
+        
+        <button type="button" style="padding: 10px; margin-right: 10px; cursor: pointer;">
+          <img src="https://placehold.co/20x20/4267B2/FFFFFF?text=F" alt="Facebook" style="vertical-align: middle; margin-right: 5px;"> Facebook
+        </button>
+        <button type="button" style="padding: 10px; cursor: pointer;">
+          <img src="https://placehold.co/20x20/DB4437/FFFFFF?text=G" alt="Google" style="vertical-align: middle; margin-right: 5px;"> Google
+        </button>
+        
+        <p style="margin-top: 20px;">
+          Bạn chưa có tài khoản? <a href="register.html">Đăng ký ngay</a>
+        </p>
+      </div>
+
+    </td>
+  </tr>
+</table>
+
+<!-- 6. Footer -->
+<footer style="text-align: center; padding: 20px; background-color: #f9f9f9; border-top: 1px solid #eee;">
+  <p>&copy; 2025 Website Nến Thơm.</p>
+  <p><a href="/privacy">Chính sách bảo mật</a> | <a href="/terms">Điều khoản dịch vụ</a></p>
+</footer>
+
+</body>
+</html>
+
+
+
