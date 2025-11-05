@@ -1,0 +1,266 @@
+﻿1. Bố cục và chức năng trang chủ (index.html)
+
+1.1 Phần đầu trang (Header)
+- Bố cục: Logo trang web (BANNEN) ở bên trái; thanh menu điều hướng nằm ngang gồm Trang chủ, Cửa hàng, Giới thiệu, Blog, Liên hệ, Giỏ hàng; khu vực đăng nhập/đăng ký tách riêng, nằm bên phải.
+- Chức năng: Cho phép người dùng di chuyển giữa các trang chính; truy cập nhanh vào trang đăng nhập hoặc đăng ký.
+
+1.2 Thanh tìm kiếm (Search bar)
+- Bố cục: Một ô nhập liệu với nút tìm kiếm.
+- Chức năng: Tìm sản phẩm theo tên.
+
+1.3 Hero/Banner
+- Bố cục: Tiêu đề, mô tả ngắn và nút “Mua ngay”.
+- Chức năng: Thu hút khách truy cập; dẫn đến trang sản phẩm hoặc landing page.
+
+1.4 Giới thiệu ngắn (About)
+- Bố cục: Đoạn văn giới thiệu thương hiệu.
+- Chức năng: Cung cấp thông tin tổng quan về BANNEN.
+
+1.5 Sản phẩm nổi bật (Featured Products)
+- Bố cục: Bảng hiển thị 3 sản phẩm với tên, giá và liên kết “Xem chi tiết”.
+- Chức năng: Giới thiệu sản phẩm chủ lực; dẫn đến trang chi tiết sản phẩm.
+
+1.6 Bộ sưu tập (Collections)
+- Bố cục: Bảng gồm 3 bộ sưu tập, mỗi bộ có tên và liên kết “Xem bộ sưu tập”.
+- Chức năng: Khám phá nhóm sản phẩm theo mục đích hoặc chủ đề.
+
+1.7 Đánh giá khách hàng (Testimonials)
+- Bố cục: Bảng 2 cột, mỗi cột chứa đánh giá từ khách hàng.
+- Chức năng: Tạo độ tin cậy và uy tín cho sản phẩm.
+
+1.8 Chân trang (Footer)
+- Bố cục: Dải thông tin ở cuối trang.
+- Chức năng: Hiển thị thông tin liên hệ và bản quyền website.
+
+
+2. Bố cục và danh sách chức năng trang sản phẩm (product.html)
+
+2.1 Phần đầu trang (Header/Nav)
+- Bố cục: Thanh điều hướng nằm ngang ở trên cùng với các liên kết: Trang chủ, Cửa hàng, Giới thiệu, Blog, Liên hệ, Giỏ hàng.
+- Chức năng: Cho phép người dùng di chuyển giữa các trang chính của website.
+
+2.2 Tiêu đề và mô tả trang
+- Bố cục: Tiêu đề h1 "Cửa Hàng Nến Thơm BANNEN" và một đoạn mô tả ngắn về sản phẩm, combo và bộ sưu tập.
+- Chức năng: Giới thiệu tổng quan về nội dung trang và thu hút người dùng.
+
+2.3 Bộ lọc sản phẩm (Filter)
+- Bố cục: Form với dropdown lựa chọn bộ sưu tập và khoảng giá, kèm nút "Lọc".
+- Chức năng: Cho phép người dùng lọc sản phẩm theo bộ sưu tập hoặc mức giá mong muốn.
+
+2.4 Banner khuyến mãi
+- Bố cục: Bảng đơn giản hiển thị thông tin các chương trình khuyến mãi.
+- Chức năng: Thông báo các ưu đãi, giảm giá, khuyến mãi nổi bật cho khách hàng.
+
+2.5 Sản phẩm nổi bật (Featured Products)
+- Bố cục: Bảng hiển thị 3 sản phẩm nổi bật với tên, giá và liên kết "Xem chi tiết".
+- Chức năng: Giới thiệu các sản phẩm chủ lực; dẫn khách hàng đến trang chi tiết sản phẩm.
+
+2.6 Bộ sưu tập (Collections)
+- Bố cục: Bảng gồm 3 bộ sưu tập sản phẩm với tên và liên kết "Xem bộ sưu tập".
+- Chức năng: Giúp người dùng khám phá các nhóm sản phẩm theo mục đích hoặc chủ đề.
+
+2.7 Combo / Gói giá tốt
+- Bố cục: Bảng hiển thị các combo sản phẩm với tên, nội dung combo, giá và liên kết "Xem chi tiết".
+- Chức năng: Giới thiệu các gói sản phẩm ưu đãi, giúp khách hàng mua theo combo tiết kiệm.
+
+2.8 Chân trang (Footer)
+- Bố cục: Dải thông tin ở cuối trang.
+- Chức năng: Hiển thị thông tin liên hệ và bản quyền website.
+
+
+3. Bố cục và chức năng trang chi tiết sản phẩm (product-detail.html)
+
+3.1 Phần đầu trang (Header)
+- Bố cục: Logo BANNEN và thanh điều hướng với các liên kết: Trang chủ, Cửa hàng, Giới thiệu, Liên hệ, Giỏ hàng.
+- Chức năng: Cho phép người dùng di chuyển giữa các trang chính và truy cập nhanh vào giỏ hàng.
+
+3.2 Chi tiết sản phẩm (Product Detail)
+- Bố cục: Bảng 2 cột; cột trái chứa ảnh sản phẩm lớn, cột phải hiển thị thông tin sản phẩm gồm tên, giá, mô tả, thành phần và nút "Thêm vào giỏ".
+- Chức năng: Hiển thị đầy đủ thông tin sản phẩm; cho phép thêm sản phẩm vào giỏ hàng.
+
+3.3 Sản phẩm liên quan (Related Products)
+- Bố cục: Bảng 3 cột hiển thị sản phẩm khác liên quan với tên, giá và liên kết "Xem chi tiết".
+- Chức năng: Giới thiệu các sản phẩm tương tự, giúp khách hàng lựa chọn thêm.
+
+3.4 Đánh giá khách hàng (Customer Reviews)
+- Bố cục: Bảng 2 cột hiển thị các đánh giá từ khách hàng.
+- Chức năng: Tăng độ tin cậy sản phẩm bằng phản hồi thực tế.
+
+3.5 Chân trang (Footer)
+- Bố cục: Dải thông tin ở cuối trang.
+- Chức năng: Hiển thị thông tin liên hệ và bản quyền website.
+
+
+4. Bố cục và danh sách chức năng trang giỏ hàng (cart.html)
+
+4.1 Phần đầu trang
+- Bố cục: Thanh menu điều hướng nằm ngang ở trên cùng.
+- Chức năng: Cho phép người dùng di chuyển qua lại giữa các trang chính.
+
+4.2 Phần nội dung chính
+- Bố cục: Chia 2 phần: 
+   - Bên trái: danh sách chi tiết các sản phẩm đã thêm vào giỏ hàng.
+   - Bên phải: thông tin tóm tắt đơn hàng.
+- Chức năng: 
+   - Bên trái: hiển thị sản phẩm, chỉnh số lượng, xóa sản phẩm, tiếp tục mua sắm.
+   - Bên phải: hiển thị tạm tính, áp dụng mã giảm giá, tổng cộng, chuyển đến thanh toán.
+
+4.3 Chân trang (Footer)
+- Bố cục: Dải thông tin nằm dưới cùng.
+- Chức năng: Hiển thị thông tin bản quyền.
+
+
+5. Bố cục và danh sách chức năng trang thanh toán (checkout.html)
+
+5.1 Phần đầu trang
+- Bố cục: Thanh menu điều hướng ngang giống trang giỏ hàng.
+- Chức năng: Điều hướng chung của website.
+
+5.2 Phần nội dung chính
+- Bố cục: Chia 2 phần:
+   - Bên trái: biểu mẫu thông tin, chọn phương thức vận chuyển và thanh toán.
+   - Bên phải: tóm tắt đơn hàng.
+- Chức năng: Thu thập thông tin giao hàng, phương thức vận chuyển/thanh toán, hiển thị tổng cộng, hoàn tất đơn hàng.
+
+5.3 Chân trang
+- Bố cục: Dải thông tin cuối trang.
+- Chức năng: Hiển thị bản quyền và thông tin liên hệ.
+
+
+6. Bố cục và danh sách chức năng trang đăng nhập (login.html)
+
+6.1 Phần nội dung chính
+- Bố cục: Form đăng nhập căn giữa màn hình.
+- Chức năng: Thu thập tài khoản, mật khẩu, lưu mật khẩu, quên mật khẩu, đăng nhập.
+
+6.2 Phần tùy chọn khác
+- Bố cục: Khu vực dưới form, ngăn cách bằng đường kẻ ngang.
+- Chức năng: Đăng nhập bằng Facebook/Google, chuyển sang đăng ký.
+
+6.3 Footer
+- Bố cục: Dải thông tin dưới cùng.
+- Chức năng: Hiển thị bản quyền, liên kết pháp lý.
+
+
+7. Bố cục và danh sách chức năng trang xác nhận đơn hàng (order-confirmation.html)
+
+7.1 Đầu trang (Header)
+- Bố cục: Thanh menu ngang + logo.
+- Chức năng: Hiển thị tên trang, logo, menu điều hướng, di chuyển nhanh.
+
+7.2 Nội dung chính (Main)
+- Bố cục: Khối nổi bật chứa thông tin đơn hàng.
+- Chức năng: Hiển thị mã đơn, ngày đặt, phương thức thanh toán, tình trạng, địa chỉ giao hàng, chi tiết sản phẩm, mục cảm ơn.
+
+7.3 Chân trang (Footer)
+- Bố cục: Dải thông tin dưới cùng.
+- Chức năng: Hiển thị thông tin bản quyền.
+
+
+8. Bố cục và danh sách chức năng trang Blog (blog.html)
+
+8.1 Đầu trang
+- Bố cục: Thanh điều hướng gồm menu trái và ô tìm kiếm phải.
+- Chức năng: Di chuyển nhanh, tìm kiếm bài viết theo từ khóa.
+
+8.2 Nội dung chính
+- Bố cục: 2 cột: trái (danh mục, bài viết nổi bật, nút đăng ký nhận tin), phải (danh sách bài blog).
+- Chức năng: Hiển thị danh mục, bài nổi bật, đăng ký nhận tin, xem chi tiết bài viết.
+
+8.3 Footer
+- Bố cục: Dải thông tin dưới cùng.
+- Chức năng: Hiển thị bản quyền.
+
+
+9. Bố cục và danh sách chức năng phần đăng ký tài khoản (register.html)
+
+9.1 Phần nội dung chính
+- Bố cục: Form đăng ký căn giữa màn hình, các trường xếp dọc.
+- Chức năng: Thu thập thông tin người dùng, đồng ý điều khoản, đăng ký.
+
+9.2 Phần tùy chọn khác
+- Bố cục: Khu vực dưới form.
+- Chức năng: Đăng nhập bằng Facebook/Google, chuyển sang đăng nhập.
+
+9.3 Footer
+- Bố cục: Dải thông tin dưới cùng.
+- Chức năng: Bản quyền.
+
+
+10. Bố cục và danh sách chức năng trang about.html
+
+10.1 Phần mở đầu (Hero section)
+- Bố cục: Tiêu đề h1, mô tả ngắn, 2 liên kết CTA.
+- Chức năng: Giới thiệu thông điệp định vị thương hiệu, dẫn đến trang cửa hàng/contact.
+
+10.2 Ảnh nhận diện thương hiệu
+- Bố cục: h2 + mô tả + banner minh họa.
+- Chức năng: Trưng bày hình ảnh đại diện, giúp ghi nhớ nhận diện thương hiệu.
+
+10.3 Niềm tin cốt lõi
+- Bố cục: h2 + mô tả triết lý.
+- Chức năng: Thể hiện giá trị cốt lõi, củng cố lòng tin thương hiệu.
+
+10.4 Cách chúng tôi làm nến (2 cột)
+- Bố cục: Bảng 2 cột: trái (mô tả quy trình), phải (ảnh minh họa).
+- Chức năng: Giới thiệu quy trình sản xuất thủ công.
+
+10.5 Câu chuyện thương hiệu
+- Bố cục: Bảng 2 cột: trái (mô tả), phải (ảnh minh họa).
+- Chức năng: Trình bày câu chuyện, giá trị thương hiệu.
+
+10.6 CTA cuối trang
+- Bố cục: Tiêu đề h2 + mô tả + 2 liên kết.
+- Chức năng: Khuyến khích hành động: khám phá sản phẩm hoặc tìm cửa hàng.
+
+
+11. Bố cục và danh sách chức năng trang contact.html
+
+11.1 Phần đầu trang (Header)
+- Bố cục: h1 “CONTACT” + đoạn mô tả ngắn.
+- Chức năng: Giới thiệu nhanh trang liên hệ.
+
+11.2 Thông tin liên hệ
+- Bố cục: Bảng 1 hàng 3 cột (Email / Hotline / Giờ mở cửa).
+- Chức năng: Cung cấp kênh liên hệ trực tiếp.
+
+11.3 Đội ngũ sản xuất
+- Bố cục: Bảng 1 hàng 3 cột, mỗi cột 1 thành viên.
+- Chức năng: Giới thiệu nhân sự chủ chốt.
+
+11.4 Địa điểm cửa hàng/chi nhánh
+- Bố cục: Bảng 2 cột (ảnh/trái + thông tin/ phải).
+- Chức năng: Hiển thị cửa hàng và link Google Maps.
+
+
+12. Bố cục và danh sách chức năng trang forgetpassword.html
+
+12.1 Khu vực nội dung trung tâm
+- Bố cục: Form căn giữa, các trường Email/Số điện thoại, Mật khẩu mới, Xác nhận mật khẩu.
+- Chức năng: Thu nhận thông tin đặt lại mật khẩu.
+
+12.2 Chân trang (Footer)
+- Bố cục: Dải thông tin dưới cùng.
+- Chức năng: Hiển thị bản quyền và liên kết chính sách.
+
+
+13. Bố cục và danh sách chức năng trang profile.html
+
+13.1 Đầu trang (Header/Banner + Breadcrumb)
+- Bố cục: Banner nền xanh đậm, tiêu đề, lời chào, link Đăng xuất; Breadcrumb.
+- Chức năng: Nhận diện tài khoản, điều hướng ngữ cảnh.
+
+13.2 Khu nội dung chính (2 cột)
+- Cột trái: Menu quản lý tài khoản (Thông tin tài khoản, Đơn hàng, Tích điểm, Sổ địa chỉ, Thẻ thanh toán, Danh sách yêu thích, Hỏi đáp)
+- Cột phải: Các khối thông tin (Thông tin tài khoản, Tùy chọn đăng ký, Sổ địa chỉ, Tóm tắt đơn hàng gần đây)
+
+13.3 Chân trang (Footer)
+- Bố cục: Dải thông tin ngang.
+- Chức năng: Cung cấp thông tin pháp lý & nhận diện thương hiệu.
+
+13.4 Luồng điều hướng
+- Header: “Đăng xuất” → login.html
+- Menu trái → các trang con
+- Thông tin tài khoản → edit_profile.html
+- Sổ địa chỉ → addresses.html
+- Tóm tắt đơn → orders.html
